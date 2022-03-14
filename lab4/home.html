@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="index.php" method="post">
+    <ul>
+
+      <li>
+        <label>
+          Введите вашу фамилию:
+          <input type="text" name="last-name">
+        </label>
+      </li>
+
+      <li>
+        <label>
+          Введите ваше имя:
+          <input type="text" name="first-name">
+        </label>
+      </li>
+
+      <li>
+        <label>
+          Выберите ваши интересы:
+          <select name="interests-of-the-user">
+            <option>Котики</option>
+            <option>Программирование</option>
+            <option>Авто</option>
+          </select>
+        </label>
+      </li>
+
+      <li>
+        <label>
+          Расскажите о себе:
+          <textarea name="textarea"></textarea>
+        </label>
+      </li>
+
+      <li>
+        <label>
+          Получать рассылку?
+          <input type="radio" name="switch" value="Да"> Да
+          <input type="radio" name="switch" value="Нет"> Нет
+        </label>
+      </li>
+
+      <li>
+        <label>
+          <input type="submit" value="Отправить" name="button">
+        </label>
+      </li>
+
+    </ul>
+
+    <p><a href="file.txt">Убедитесь в правильности заполненой анкеты</a></p>
+  </form>
+</body>
+</html>
